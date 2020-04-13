@@ -5,13 +5,11 @@ endif
 " -------------------------------------------------------------------------- }}}
 " {{{ vim color settings 
 
-" Use visible search highlighting
-highlight! link Visual Search
-
 " I am using color 18 or 19, which will change because I use base16 functions
 " such as base16_chalk to set my terminal color.
-highlight ColorColumn ctermbg=19
-highlight SignColumn  ctermbg=19
+
+" Use visible search highlighting
+highlight! link Visual Search
 
 " Clear some items.
 highlight clear SpellBad
@@ -26,6 +24,9 @@ highlight DiffText   cterm=bold      ctermfg=155 ctermbg=19 gui=none guifg=bg gu
 highlight Folded                     ctermfg=100 ctermbg=19 gui=none guifg=bg guibg=Red
 highlight SpellBad   cterm=underline ctermfg=3   ctermbg=19 gui=undercurl
 
+highlight ColorColumn ctermbg=18
+highlight SignColumn  ctermbg=19
+
 " Use same color behind concealed Unicode characters
-set t_Co=19
+set t_Co=18
 " -------------------------------------------------------------------------- }}}
