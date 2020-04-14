@@ -26,7 +26,4 @@ highlight SpellBad   cterm=underline ctermfg=3   ctermbg=19 gui=undercurl
 
 highlight ColorColumn ctermbg=18
 highlight SignColumn  ctermbg=19
-
-" Use same color behind concealed Unicode characters
-set t_Co=18
 " -------------------------------------------------------------------------- }}}
