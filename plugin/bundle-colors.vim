@@ -1,7 +1,10 @@
 " {{{ bundle-colors.vim 
+
 if exists('g:loaded_bundle_colors')
   finish
 endif
+let g:loaded_bundle_colors=1
+
 " -------------------------------------------------------------------------- }}}
 " {{{ vim color settings 
 
