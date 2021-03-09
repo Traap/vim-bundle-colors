@@ -30,6 +30,10 @@ highlight SpellBad   cterm=underline ctermfg=3   ctermbg=19 gui=undercurl
 highlight ColorColumn ctermbg=18
 highlight SignColumn  ctermbg=19
 
+highlight clear Folded
+highlight Folded ctermfg=12
+highlight Comment ctermfg=12
+
 " coc-vim uses cterm foreground and background colors I cannot read with
 " chalk coloscheme.
 highlight CocErrorFloat ctermfg=black
